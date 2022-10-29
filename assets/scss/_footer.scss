@@ -54,4 +54,21 @@
             }
         }
     }
+
+    @media (max-width: 767.98px){
+        .wrap{
+            display: flex;
+            flex-wrap: wrap;
+            grid-gap: inherit;
+        }
+        ._left{
+            margin-bottom: 24px;
+        }
+        ._center{
+            width: 50%;
+        }
+        ._right{
+            width: 50%;
+        }
+    }
 }

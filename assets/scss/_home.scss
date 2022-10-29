@@ -260,3 +260,109 @@
         }
     }
 }
+
+@media (max-width: 1024.98px){
+    .hero-ss {
+        .item .content {
+            .heading{
+                font-size: 40px;
+            }
+            .des{
+                font-size: 18px;
+            }
+        }
+        .owl-dots{
+            margin-top: 24px;
+        }
+    }
+    .partner .gallery{
+        grid-gap: 24px;
+    }
+}
+
+@media (max-width: 767.98px){
+    .hero-ss {
+        padding: 90px 0 48px;
+        .item{
+            text-align: center;
+            flex-direction: column;
+            .img{
+                width: 100%;
+                img{
+                    height: 200px;
+                    width: auto;
+                    margin: 0 auto;
+                }
+            }
+            .content {
+                width: 100%;
+                padding-left: 0;
+                .heading{
+                    font-size: 24px;
+                }
+                .des{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .about-ss {
+        padding: 48px 0;
+        .container{
+            max-width: 480px;
+        }
+        .wrap{
+            flex-direction: column;
+            ._left{
+                width: 100%;
+            }
+            .right{
+                padding-left: 0;
+                width: 100%;
+            }
+        }
+    }
+    .ecosystem {
+        padding: 48px 0;
+        .container{
+            max-width: 480px;
+        }
+        .wrap{
+            grid-template-columns: 1fr;
+            grid-gap: 32px;
+        }
+    }
+    .roadmap {
+        padding: 48px 0;
+        .container{
+            max-width: 480px;
+        }
+        .wrap{
+            grid-template-columns: 1fr;
+        }
+    }
+    .partner {
+        padding: 48px 0;
+        .gallery{
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 12px;
+            .item{
+                img{
+                    width: 48px;
+                    height: 48px;
+                }
+                &:nth-child(13){
+                    grid-column: 1 / span 2;
+                    grid-row: 4;
+                }
+                &:nth-child(14){
+                    grid-column: 3 / span 2;
+                    grid-row: 4;
+                }
+            }
+        }
+    }
+    .community{
+        padding: 48px 0;
+    }
+}
