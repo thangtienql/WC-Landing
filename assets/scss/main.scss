@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    > * {
+        box-sizing: border-box;
+        font-family: "Jost", sans-serif;
+        transition: .3s ease all;
+    }
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    transition: .3s ease all;
+}
+
+.heading-cm{
+    text-align: center;
+    font-size: 48px;
+    line-height: 125%;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin: 0 0 48px;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+@import "header";
+@import "footer";
+@import "home";
