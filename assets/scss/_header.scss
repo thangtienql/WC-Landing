@@ -123,6 +123,12 @@
     }
 
     @media (max-width: 991.98px){
+        position: fixed;
+        z-index: 91;
+        &.scroll{
+            background-color: #101722;
+            border-bottom: 1px solid #313d50;
+        }
         .__main-menu, .__right a{
             display: none;
         }

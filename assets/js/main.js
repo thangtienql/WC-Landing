@@ -21,6 +21,16 @@
         $('.__menu-mobile').removeClass('active');
     });
 
+    $(window).scroll( function() {
+        let height_header = $('.main-header').outerHeight();
+
+        if( $(window).scrollTop() > height_header ){
+            $('.main-header').addClass('scroll');
+        }else{
+            $('.main-header').removeClass('scroll');
+        }
+    });
+
     $(document).mouseup(function(e) {
         if (!$(e.target).is(".__menu-mobile")) {
             $('body').removeClass('overplay');
