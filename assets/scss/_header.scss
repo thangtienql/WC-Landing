@@ -78,7 +78,7 @@
         max-width: 240px;
         width: 100%;
         img{
-            height: 56px;
+            height: 70px;
             width: auto;
             display: block;
         }
@@ -165,9 +165,9 @@
     }
 
     @media (max-width: 767.98px){
-        .__logo img{
-            height: 36px;
-        }
+        // .__logo img{
+        //     height: 36px;
+        // }
         .__right .__toggle-btn{
             width: 24px;
             height: 24px;
