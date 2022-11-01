@@ -2,7 +2,7 @@
 
     $('.hero-ss .owl-carousel').owlCarousel({
         items: 1,
-        loop: true,
+        // loop: true,
         dots: true,
         autoplay: true,
         autoplayTimeout: 5000,

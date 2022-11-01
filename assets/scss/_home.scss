@@ -192,18 +192,22 @@
 
 .partner{
     background-color: #101722;
+    // background-image: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 80px 0;
     border-top: 1px solid #313d50;
     .gallery{
         display: grid;
-        grid-template-columns: repeat(7, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
         grid-gap: 48px;
         max-width: 880px;
         margin: 0 auto;
         .item{
             img{
-                width: 80px;
-                height: 80px;
+                width: 100%;
                 object-fit: cover;
                 display: block;
                 margin: 0 auto;
@@ -276,7 +280,7 @@
         }
     }
     .partner .gallery{
-        grid-gap: 24px;
+        // grid-gap: 24px;
     }
 }
 
@@ -344,22 +348,8 @@
     .partner {
         padding: 48px 0;
         .gallery{
-            grid-template-columns: repeat(4, 1fr);
-            grid-gap: 12px;
-            .item{
-                img{
-                    width: 48px;
-                    height: 48px;
-                }
-                &:nth-child(13){
-                    grid-column: 1 / span 2;
-                    grid-row: 4;
-                }
-                &:nth-child(14){
-                    grid-column: 3 / span 2;
-                    grid-row: 4;
-                }
-            }
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 24px 32px;
         }
     }
     .community{
